@@ -5,6 +5,7 @@ public class SvrResponseSanPham {
     private SanPham sanPhams;
     private String message;
 
+
     public SanPham getSanPhams() {
         return sanPhams;
     }

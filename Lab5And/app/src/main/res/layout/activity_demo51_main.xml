@@ -49,6 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/demo51Txt2"
         app:layout_constraintVertical_bias="0.085" />
 
+
     <TextView
         android:id="@+id/demo51TvKQ"
         android:layout_width="wrap_content"
@@ -59,17 +60,58 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/demo51Txt3"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.071" />
 
     <Button
-        android:id="@+id/demo51Btn1"
+        android:id="@+id/Demo51btnSelect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_marginTop="32dp"
+        android:text="Select"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Demo51btn1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints,UnknownId" />
+
+    <Button
+        android:id="@+id/Demo51btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Demo51btnSelect"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <Button
+        android:id="@+id/Demo51btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPdate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Demo51btnDelete"
+        app:layout_constraintVertical_bias="0.357"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Demo51btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        app:layout_constraintBottom_toTopOf="@+id/Demo51btnUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/demo51TvKQ"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintVertical_bias="0.203"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
