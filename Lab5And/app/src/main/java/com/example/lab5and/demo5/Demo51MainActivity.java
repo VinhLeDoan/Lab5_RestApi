@@ -70,7 +70,7 @@ public class Demo51MainActivity extends AppCompatActivity {
                 txt3.getText().toString());
         //tao doi tuong retrofit
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.1.1/000/2024071/")
+                .baseUrl("http://172.20.10.2/000/2024071/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -102,7 +102,7 @@ public class Demo51MainActivity extends AppCompatActivity {
                 txt3.getText().toString());
         //tao doi tuong retrofit
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.1.1/000/2024071/")
+                .baseUrl("http://172.20.10.2/000/2024071/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -130,7 +130,7 @@ public class Demo51MainActivity extends AppCompatActivity {
 
         //tao doi tuong retrofit
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.1.1/000/2024071/")
+                .baseUrl("http://172.20.10.2/000/2024071/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -159,7 +159,7 @@ public class Demo51MainActivity extends AppCompatActivity {
     private void selectData(){
         strKQ="";
         Retrofit retrofit= new Retrofit.Builder()
-                .baseUrl("http://192.168.1.1/000/2024071/")
+                .baseUrl("http://172.20.10.2/000/2024071/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         InterfaceSelect interfaceSelect = retrofit.create(InterfaceSelect.class);
